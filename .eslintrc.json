@@ -1,0 +1,36 @@
+{
+
+  "parser": "babel-eslint",
+
+  "env": {
+    "es6": true,
+    "mocha": true
+  },
+
+  "rules": {
+    "strict": 0
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "experimentalObjectRestSpread": true,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "plugins": [
+    "react"
+  ],
+
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "15.3.2"
+    }
+  },
+
+  "extends": [ "eslint:recommended", "plugin:react/recommended" ]
+
+}
